@@ -1,0 +1,73 @@
+name: goldapp
+description: "Aurelia marketplace Flutter app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State & routing
+  signals: ^7.1.0
+  signals_flutter: ^7.1.0
+  go_router: ^16.0.0
+
+  # Networking & realtime
+  dio: ^5.8.0+1
+  socket_io_client: ^3.1.2
+  connectivity_plus: ^6.1.4
+
+  # Storage & database
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+  drift: ^2.26.1
+  sqlite3_flutter_libs: ^0.5.32
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # UI / media
+  cached_network_image: ^3.4.1
+  google_fonts: ^6.2.1
+  fl_chart: ^1.0.0
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  video_player: ^2.9.5
+  audioplayers: ^6.4.0
+  image_picker: ^1.1.2
+  file_selector: ^1.0.3
+  desktop_drop: ^0.6.0
+  mime: ^2.0.0
+
+  # Device / platform
+  geolocator: ^14.0.1
+  local_auth: ^2.3.0
+  permission_handler: ^12.0.0+1
+  device_info_plus: ^11.4.0
+  package_info_plus: ^8.3.0
+  share_plus: ^11.0.0
+  url_launcher: ^6.3.1
+  record: ^6.0.0
+
+  # Utilities
+  collection: ^1.19.1
+  intl: any
+  uuid: ^4.5.1
+  timeago: ^3.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: ^2.26.1
+  build_runner: ^2.4.15
+
+flutter:
+  uses-material-design: true
+  generate: true
